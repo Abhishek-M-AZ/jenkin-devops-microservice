@@ -2,7 +2,7 @@
 
 //DECLARATIVE
 pipeline {
-    agent { docker { image 'maven:4.0.0-rc-5-amazoncorretto-25-debian-trixie' } }
+    agent { docker { image 'maven:3.6.3' } }
     
     environment {
         // 127.0.0.11:53
